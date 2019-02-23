@@ -231,6 +231,9 @@ class MainController extends Controller
         $file_output = 'TE305.txt';
         $this->write_tabbed_file($file_output, $t305);
 
+        dd($t305);
+
+
         /**
          * Merge Array and Generate File for TE305T
          */

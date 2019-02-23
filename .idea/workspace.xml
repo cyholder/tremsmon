@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="620f57f4-3363-4fde-92cb-57200cce4f5b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/TE305.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/TE305.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/TE305T.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/TE305T.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/TFKTVO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/TFKTVO.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/TFKTVOT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/TFKTVOT.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,8 +44,12 @@
       <file leaf-file-name="MainController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MainController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="387">
+              <caret line="233" column="18" selection-start-line="233" selection-start-column="18" selection-end-line="233" selection-end-column="18" />
+              <folding>
+                <element signature="e#211#1049#0#PHP" />
+                <element signature="e#1055#1195#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,6 +63,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -64,6 +81,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MainController.php" />
       </list>
     </option>
@@ -169,6 +187,19 @@
               <item name="tremsmon" type="b2602c69:ProjectViewProjectNode" />
               <item name="tremsmon" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tremsmon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tremsmon" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+              <item name="Commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tremsmon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tremsmon" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -177,6 +208,11 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tremsmon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tremsmon" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tremsmon" type="b2602c69:ProjectViewProjectNode" />
@@ -236,12 +272,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548759714360</updated>
       <workItem from="1548759715554" duration="1463000" />
-      <workItem from="1550903509692" duration="546000" />
+      <workItem from="1550903509692" duration="1100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2009000" />
+    <option name="totallyTimeSpent" value="2563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="207" y="23" width="1233" height="824" extended-state="0" />
@@ -296,6 +332,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
           <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#211#1049#0#PHP" />
+            <element signature="e#1055#1195#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -326,10 +366,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MainController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="387">
+          <caret line="233" column="18" selection-start-line="233" selection-start-column="18" selection-end-line="233" selection-end-column="18" />
+          <folding>
+            <element signature="e#211#1049#0#PHP" />
+            <element signature="e#1055#1195#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>
