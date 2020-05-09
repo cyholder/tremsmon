@@ -1,0 +1,55 @@
+
+BR0280I BRSPACE time stamp: 2020-04-21 00.00.03
+BR1009I Name of database instance: P10002
+BR1010I BRSPACE action ID: sfdpslve
+BR1011I BRSPACE function ID: dbw
+BR1012I BRSPACE function: dbshow
+BR1036I Class of information to be shown: tsinfo
+
+BR0280I BRSPACE time stamp: 2020-04-21 00.00.05
+BR0659I List menu 259 + you can select one or more entries
+-------------------------------------------------------------------------------
+List of database tablespaces
+
+Pos.  Tablespace     Type  Status    ExtMan.  SegMan.  Back. BigFi. Files/AuEx.  Compr.  Encr.
+      Total[KB]   Used[%]    Free[KB]  MaxSize[KB]  ExtSize[KB]  FreeExt.    Largest[KB]
+
+  1 - PSAPSR3        DATA  ONLINE    LOCAL    AUTO      NO    NO      242/122     NO      NO     
+    5275320320     95.61   231536192   5275320320            0       367     4063232:4063232:4063232:4063232:4063232
+  2 - PSAPSR3700     DATA  ONLINE    LOCAL    AUTO      NO    NO        6/3       NO      NO     
+     124559360     61.18    48356160    163368960     38809600       169    13783040+:12513280+:12513280+:4063232:4063232
+  3 - PSAPSR3QUEST01 DATA  ONLINE    LOCAL    AUTO      NO    NO        1/0       NO      NO     
+       5120000      0.89     5074688      5120000            0         3     4018176:1055744:768:0:0
+  4 - PSAPSR3REORGDATA DATA  ONLINE    LOCAL    AUTO      NO    NO      126/1       NO      NO     
+    2621491200     85.23   387175808   2631680000     10188800      3439    10188800+:4063232:4063232:4063232:4063232
+  5 - PSAPSR3USR     DATA  ONLINE    LOCAL    AUTO      NO    NO        8/8       NO      NO     
+     157040640     96.45     5574080    219950080     62909440         9    12581888+:12581888+:12581888+:12581888+:12581888+
+  6 - PSAPTEMP       TEMP  ONLINE    LOCAL    MANUAL    NO    NO       10/1       NO      NO     
+     198983680      0.00   198982656    198983680            0         0           0:0:0:0:0
+  7 - PSAPUNDO001    UNDO  ONLINE    LOCAL    MANUAL    NO    NO       14/1       NO      NO     
+     306114560      0.00   306100224    306114560            0      7446     4063232:4063232:4063232:4063232:4063232
+  8 - PSAPUNDO002    UNDO  ONLINE    LOCAL    MANUAL    NO    NO       15/1       NO      NO     
+     327086080      0.01   327062528    327086080            0      8557     4063232:4063232:4063232:4063232:4063232
+  9 - SYSAUX         DATA  ONLINE    LOCAL    AUTO      NO    NO        3/3       NO      NO     
+      43560960     92.17     3411712     52183040      8622080         4     8622080+:2756608:654336:704:64
+ 10 - SYSTEM         DATA  ONLINE    LOCAL    MANUAL    NO    NO        3/3       NO      NO     
+       8091648     99.92        6400     30720000     22628352         8     7997440+:7860224+:6770688+:3072:1024
+ 11 - TBSSHAREPLEX   DATA  ONLINE    LOCAL    AUTO      NO    NO        1/0       NO      NO     
+       5120000      0.09     5115328      5120000            0         2     4059584:1055744:0:0:0
+
+Standard keys: c - cont, b - back, s - stop, r - refr, h - help
+-------------------------------------------------------------------------------
+BR0662I Enter your selection:
+BR0280I BRSPACE time stamp: 2020-04-21 00.00.05
+BR0664W Invalid selection: 's\y'
+BR0662I Enter your selection:
+BR0280I BRSPACE time stamp: 2020-04-21 00.00.05
+BR0255E Cannot read from standard input
+
+BR0280I BRSPACE time stamp: 2020-04-21 00.00.05
+BR0700E Fatal errors occurred - terminating processing...
+BR1004E BRSPACE function 'dbshow' failed
+
+BR1008I End of BRSPACE processing: sfdpslve.dbw 2020-04-21 00.00.05
+BR0280I BRSPACE time stamp: 2020-04-21 00.00.05
+BR1007I BRSPACE terminated with errors

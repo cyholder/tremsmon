@@ -1,0 +1,10 @@
+SQL> 
+SQL> archive log list
+Database log mode              Archive Mode
+Automatic archival             Enabled
+Archive destination            +P10_ARCH/p10/oraarch
+Oldest online log sequence     1086
+Next log sequence to archive   1089
+Current log sequence           1089
+SQL> 
+SQL> spool off;

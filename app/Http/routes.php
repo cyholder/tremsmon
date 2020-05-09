@@ -16,3 +16,6 @@
 //});
 Route::get('/', 'MainController@index')->name('main.index');
 Route::post('/', 'MainController@post')->name('main.post');
+Route::get('api/db/tablespace', 'DatabaseController@tablespace');
+Route::get('api/db/archivelog', 'DatabaseController@archivelog');
+Route::get('api/app/list', 'DatabaseController@appList');

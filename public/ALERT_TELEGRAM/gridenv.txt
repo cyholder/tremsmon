@@ -1,0 +1,9 @@
+State    Type    Rebal  Sector  Block       AU  Total_MB  Free_MB  Req_mir_free_MB  Usable_file_MB  Offline_disks  Voting_files  Name
+MOUNTED  NORMAL  N         512   4096  1048576     24573    23647             8191            7728              0             Y  OCR/
+MOUNTED  EXTERN  N         512   4096  1048576    307199    97176                0           97176              0             N  ORAHOME/
+MOUNTED  EXTERN  N         512   4096  1048576    511999   504562                0          504562              0             N  P10_ARCH/
+MOUNTED  EXTERN  N         512   4096  1048576   9437175   576176                0          576176              0             N  P10_DATA/
+MOUNTED  EXTERN  N         512   4096  1048576    255998   190341                0          190341              0             N  P10_MLOG/
+MOUNTED  EXTERN  N         512   4096  1048576    255998   190341                0          190341              0             N  P10_OLOG/
+MOUNTED  EXTERN  N         512   4096  1048576    204798   139044                0          139044              0             N  P10_RECO/
+MOUNTED  EXTERN  N         512   4096  1048576    307199       91                0              91              0             N  SHAREPLEX/
